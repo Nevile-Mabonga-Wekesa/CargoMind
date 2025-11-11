@@ -150,7 +150,3 @@ Output formats: **JSON + downloadable CSV**.
 ## 🧑‍💻 **Contributors**
 
 Built and maintained by a cross-functional engineering team led by **Neville Mabonga** — focused on **precision, scalability, and execution discipline**.
-
----
-
-Do you want me to add a **Quickstart guide** (setup `.env`, DB migrations, running worker + testing endpoints) to the README next?
