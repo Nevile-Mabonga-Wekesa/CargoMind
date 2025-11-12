@@ -14,6 +14,8 @@ app.include_router(tracking.router)
 app.include_router(auth.router, prefix="/auth")
 app.include_router(websocket_tracking.router)
 
+
+
 Base.metadata.create_all(bind=engine)
 # app/main.py
 from sqlalchemy.orm import sessionmaker, declarative_base, Session

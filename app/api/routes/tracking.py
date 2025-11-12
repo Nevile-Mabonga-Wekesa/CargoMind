@@ -1,7 +1,6 @@
 # app/api/routes/tracking.py
 from fastapi import APIRouter, Depends, HTTPException, status
 from app.schemas.vehicle import VehicleLocationUpdate
-from app.core.redis_client import save_vehicle_location
 from app.core.auth import get_current_user
 
 router = APIRouter(prefix="/track", tags=["Tracking"])
